@@ -1,0 +1,72 @@
+body {
+font-family: 'Just Another Hand', cursive;
+background-color: #636e72;
+width: 100%;
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* TODO: Styling by html elemnt: add styling for h1 and h2 */
+
+h1, h2 {
+  font-weight: 400;
+  font-size: 200px;
+
+}
+
+/* TODO: Styling by id: add styling for #title */
+#title {
+  color: white;
+  
+}
+
+#question {
+  display: inline;
+  color: #FFFFFF;
+}
+
+/* TODO: Styling by id: add styling for canvas */
+#my_canvas{
+  vertical-align: top;
+  display: inline;
+  border:5px solid #FFFFFF;
+}
+
+.container {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.btn {
+  margin: 10px;
+	background-color:#FFFFFF;
+	border-radius:20px;
+  border-width: 0;
+	cursor:pointer;
+	color:#242E6B;
+  line-height: 70px;
+	font-family:'Just Another Hand', cursive;
+	font-size:70px;
+  letter-spacing: 3px;
+	padding:13px 32px 0 32px;
+  text-align: center;
+	text-decoration:none;
+
+}
+
+/* TODO: Styling by class: add Styling for button on hover */
+
+.btn:hover {
+  background-color:#0984e3 ;
+  color:white;
+}
+
+
+#score{
+  color: white;
+}
+#user_score{
+  color:white;
+}
+
