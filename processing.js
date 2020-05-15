@@ -67,23 +67,12 @@ function predictImage() {
 		// body...
 	});
 
-	// console.log(`Scaled array ${pixelValues}`);
 	const X = tf.tensor([pixelValues]);
-	// console.log(`SHape of tensor ${X.shape}`);
-	// console.log(`DType of tensor ${X.dtype}`);
 	const result = model.predict(X);
 
   	result.print();
   	const output = result.dataSync()[0];
 
-
-	// Testing only
-	// const outputCanvas = document.createElement('CANVAS');
-	// cv.imshow(outputCanvas, image);
-
-	// document.body.appendChild(outputCanvas);
-
-	// Cleanup 
 	image.delete();
 	contours.delete();
 	cnt.delete();
@@ -91,7 +80,5 @@ function predictImage() {
 	M.delete();
 	X.dispose();
 	result.dispose();
-
 	return output;
-
 }
