@@ -10,22 +10,12 @@ function nextQuestion() {
 
 function checkAnswer(){
 	const prediction = predictImage();
-
-
 	if (prediction == answer ) {
-		
 		score ++;
 		document.getElementById('user_score').innerHTML = score ;
 
 	}else{
-		
 		score --;
-
 		document.getElementById('user_score').innerHTML = score;
 	}
-
-
 }
-
-
-
