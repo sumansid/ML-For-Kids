@@ -1,6 +1,12 @@
 # Machine-Learning-For-Kids
 
 This program is developed for kids to get better at maths as well as improve their handwriting.
-I have used tensorflow js and opencv to integrate this into the web.
+
+
+![ezgif com-gif-maker (6)](https://user-images.githubusercontent.com/53033648/82849296-3b5e4080-9ec5-11ea-9af1-9d4b6a94b935.gif)
+
+
+
+
 
 Link : https://sumansid.github.io/Machine-Learning-For-Kids/
