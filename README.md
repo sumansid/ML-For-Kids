@@ -10,4 +10,4 @@ Tools used : OpenCv, Tensorflow, Tensorflow Js
 
 
 
-Link : https://sumansid.github.io/Machine-Learning-For-Kids/
+Link : https://sumansid.github.io/ML-For-Kids/
