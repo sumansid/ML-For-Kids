@@ -1,21 +1,16 @@
 <html lang='en'>
-
 <head>
   <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
-  <!-- Custom styling -->
   <link rel='stylesheet' href='css/styles.css'>
-  <!-- Custom font -->
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Just+Another+Hand&display=swap'>
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"/></script>
-  <script src="drawing.js"></script>
-  <script src='https://docs.opencv.org/4.1.0/opencv.js'></script>
-  <script src="processing.js"></script>
-  <script src="math.js"></script>
-  
-  
 
-  <!-- TODO: Add Javascript files here -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"/></script>
+  <script src="js/drawing.js"></script>
+  <script src='https://docs.opencv.org/4.1.0/opencv.js'></script>
+  <script src="js/processing.js"></script>
+  <script src="js/math.js"></script>
+  
 
 </head>
 
@@ -23,13 +18,11 @@
 
   <div class='container'>
 
-    <!-- TODO: Add title here -->
     <h1 id='title'>ML4Kids <span id='score'>| Score:</span> <span id='user_score'>0</span> </h1>
 
 
     <h2 id='question'><span id='n1'>3</span> + <span id='n2'>2</span> = </h2>
 
-    <!-- TODO: Add a drawing canvas here -->
     <canvas id="my_canvas" width="150" height="150"> </canvas>
 
   </div>
@@ -38,7 +31,6 @@
     <button id='checkAnswer' class='btn' value='Check'>Check Answer</button>
   </div>
 
-  <!-- TODO: Set up TF model and drawing logic-->
   <script>
  
     load_model();
@@ -47,14 +39,13 @@
 
     document.getElementById('checkAnswer').addEventListener('click', function(){
 
-
       checkAnswer();
       clearCanvas();
       nextQuestion();
 
     });
+
   </script>
 
 </body>
-
 </html>
